@@ -1,0 +1,21 @@
+{
+	"meats": [
+		{
+			"category": "meat",
+			"Turkey": 1.00
+		},
+		{
+			"category": "meat",
+			"Bacon": 1.50
+		},
+		{
+			"category": "meat",
+			"Ham": 1.25
+		},
+		{
+			"category": "meat",
+			"Roast-Beef": 0.50
+		}
+
+	]
+}

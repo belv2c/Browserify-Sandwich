@@ -1,0 +1,21 @@
+{
+	"condiments": [
+		{
+			"category": "condiment",
+			"Ketchup": 0.20
+		},
+		{
+			"category": "condiment",
+			"Mayo": 0.10
+		},
+		{
+			"category": "condiment",
+			"BBQ": 0.10
+		},
+		{
+			"category": "condiment",
+			"Mustard": 0.01
+		}
+
+	]
+}

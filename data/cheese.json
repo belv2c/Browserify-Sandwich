@@ -1,0 +1,21 @@
+{
+	"cheeses": [
+		{
+			"category": "cheese",
+			"American": 0.50
+		},
+		{
+			"category": "cheese",
+			"Cheddar": 0.75
+		},
+		{
+			"category": "cheese",
+			"Mozz": 0.30
+		},
+		{
+			"category": "cheese",
+			"Swiss": 0.40
+		}
+
+	]
+}
