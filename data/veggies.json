@@ -1,0 +1,21 @@
+{
+	"veggies": [
+		{
+			"category": "veggie",
+			"Tomato": 1.00
+		},
+		{
+			"category": "veggie",
+			"Onion": 1.50
+		},
+		{
+			"category": "veggie",
+			"Lettuce": 1.25
+		},
+		{
+			"category": "veggie",
+			"Banana-Peppers": 0.50
+		}
+
+	]
+}

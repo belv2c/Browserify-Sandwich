@@ -1,0 +1,21 @@
+{
+	"breads": [
+		{
+			"category": "bread",
+			"Wheat": 1.00
+		},
+		{
+			"category": "bread",
+			"Sourdough": 1.50
+		},
+		{
+			"category": "bread",
+			"Rye": 1.25
+		},
+		{
+			"category": "bread",
+			"White": 0.50
+		}
+
+	]
+}
