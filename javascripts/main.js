@@ -1,2 +1,4 @@
 "use strict";
-console.log("main.js");
+
+const data = require('./data');
+const dom = require('./domhandler');

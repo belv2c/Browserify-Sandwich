@@ -6,19 +6,39 @@ const loadCondiments = require("./condiments");
 const loadMeat = require("./meat");
 const loadVeggies = require("./veggies");
 
-let jsonData = [];
+let breadArray = [];
+let cheeseArray = [];
+let condimentsArray = [];
+let meatArray = [];
+let veggieArray = [];
 
 
 const errorFunction = () => {
 	console.log("dis broken");
 };
 
-const whenBreadLoads = function(){
-	console.log("bread array");
-	let breadArray = JSON.parse(this.responseText).breads;
-	
-	jsonData.push(breadArray);
-	/*loadMeat(whenMeatLoads, errorFunction);*/
+const whenBreadLoads = () => {
+	breadArray = JSON.parse(this.responseText).breads;
+	loadCheese(whenCheeseLoads, errorFunction);
+};
+
+const whenCheeseLoads = () => {
+	cheeseArray = JSON.parse(this.responseText).cheese;
+	loadCondiments(whenCondimentsLoad, errorFunction);
+};
+
+const whenCondimentsLoad = () => {
+	condimentsArray = JSON.parse(this.responseText).condiments;
+	loadMeat(whenMeatLoads, errorFunction);
+};
+
+const whenMeatLoads = () => {
+	meatArray = JSON.parse(this.responseText).condiments;
+	loadVeggies(whenVeggiesLoad, errorFunction);
+};
+
+const whenVeggiesLoad = () => {
+	veggieArray = JSON.parse(this.responseText).veggies;
 };
 
 const initializer = () => {
